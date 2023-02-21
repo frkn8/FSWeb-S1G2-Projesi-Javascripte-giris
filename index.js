@@ -20,7 +20,12 @@ Aşağıdakileri yapın:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
-
+let sürücüYaşı1 = 17;
+if(sürücüYaşı1>18){
+  console.log(true)
+  }else{
+    console.log(false)
+  }
 
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
@@ -35,7 +40,12 @@ Aşağıdakileri yapınız:
 */
 
 
-
+let birinciDeger = 55;
+let ikinciDeger = 45;
+if (birinciDeger > ikinciDeger) {
+  birinciDeger = 25;
+  console.log (birinciDeger);
+  }
 
 
 /*
@@ -50,6 +60,10 @@ Aşağıdakileri yapın:
 */
 
 
+const stringsayi = "1999";
+const numbersayi = Number (stringsayi);
+console.log (stringsayi);
+console.log (numbersayi);
 
 
 /*
@@ -61,10 +75,10 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamlayın:
    3. console.log(carpma(7,4)) ile yazdığınız fonsiyonu test edin. Console'da sonucu 28 olarak görmelisiniz.
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+function carpma(a, b) {
+  return a * b;
 }
-
+console.log(carpma(7,4))
 
 
 
